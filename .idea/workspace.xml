@@ -29,8 +29,8 @@
       <file leaf-file-name="ApiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,23 +125,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitHubAPITesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHubAPITesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitHubAPITesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHubAPITesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitHubAPITesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHubAPITesting" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,32 +233,11 @@
       <updated>1528891476496</updated>
       <workItem from="1528891492845" duration="732000" />
       <workItem from="1528961579023" duration="5674000" />
-      <workItem from="1529047746706" duration="8147000" />
+      <workItem from="1529047746706" duration="11965000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTest - 2018.06.15 at 11h 36m 21s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 11h 46m 57s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 11h 53m 53s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 11h 54m 20s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 11h 54m 52s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 12h 11m 33s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest - 2018.06.15 at 12h 16m 10s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiTest - 2018.06.15 at 12h 17m 23s.xml">
       <configuration name="ApiTest" configurationId="JUnit" />
     </history-entry>
@@ -285,9 +247,30 @@
     <history-entry file="ApiTest - 2018.06.15 at 12h 36m 25s.xml">
       <configuration name="ApiTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 12h 41m 51s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 13h 01m 51s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 13h 02m 34s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 13h 59m 25s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 14h 00m 06s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 14h 48m 20s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest - 2018.06.15 at 14h 50m 13s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14553000" />
+    <option name="totallyTimeSpent" value="18371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -303,7 +286,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36031747" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33174604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -370,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
