@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279949fc-0802-4405-8cb2-b2e30d5e6198" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +27,11 @@
       <file leaf-file-name="ApiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="532">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,14 +232,11 @@
       <workItem from="1528891492845" duration="732000" />
       <workItem from="1528961579023" duration="5674000" />
       <workItem from="1529047746706" duration="14105000" />
-      <workItem from="1529306952993" duration="6392000" />
+      <workItem from="1529306952993" duration="7389000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTest - 2018.06.18 at 10h 53m 35s.xml">
-      <configuration name="ApiTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiTest - 2018.06.18 at 10h 54m 48s.xml">
       <configuration name="ApiTest" configurationId="JUnit" />
     </history-entry>
@@ -265,9 +264,12 @@
     <history-entry file="ApiTest - 2018.06.18 at 11h 24m 20s.xml">
       <configuration name="ApiTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApiTest - 2018.06.18 at 11h 53m 53s.xml">
+      <configuration name="ApiTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26903000" />
+    <option name="totallyTimeSpent" value="27900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,6 +328,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,6 +345,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -361,8 +369,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="532">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

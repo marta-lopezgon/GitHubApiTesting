@@ -16,43 +16,16 @@ public class ApiTest {
     //check the structure of the json for the given endpoint
     //(check that all the keys are in the response: id, name, full name, owner, etc…)
     @Test
-    public void check_Id() {
+    public void check_Structure() {
         given().
                 when().
                 get("https://api.myjson.com/bins/n8jcu").
                 then().
                 assertThat().
-                body("",hasKey("id"));
-    }
-
-    @Test
-    public void check_Name() {
-        given().
-                when().
-                get("https://api.myjson.com/bins/n8jcu").
-                then().
-                assertThat().
-                body("", hasKey("name"));
-    }
-
-    @Test
-    public void check_FullName() {
-        given().
-                when().
-                get("https://api.myjson.com/bins/n8jcu").
-                then().
-                assertThat().
-                body("", hasKey("full_name"));
-    }
-
-    @Test
-    public void check_Owner() {
-        given().
-                when().
-                get("https://api.myjson.com/bins/n8jcu").
-                then().
-                assertThat().
-                body("", hasKey("owner"));
+                body("",hasKey("id"))
+                .body("", hasKey("name"))
+                .body("", hasKey("full_name"))
+                .body("", hasKey("owner"));
     }
 
     //check for the presence of the word “metrolab” in the field “owner->login”
@@ -66,14 +39,13 @@ public class ApiTest {
                 body("owner",hasEntry("login","metrolab"));
     }
 
-    //same test in a different and not as accurate way
     @Test
-    public void test_ApiHasMetrolab() {
+    public void test_FailedOnPurpose() {
         given().
                 when().
                 get("https://api.myjson.com/bins/n8jcu").
                 then().
-                body(containsString("metrolab"));
+                assertThat().
+                body("",hasKey("failing attribute"));
     }
-
 }
