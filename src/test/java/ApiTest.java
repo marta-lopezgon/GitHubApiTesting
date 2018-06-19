@@ -8,7 +8,7 @@ public class ApiTest {
     public void check_ApiStatus() {
         given().
                 when().
-                get("https://api.myjson.com/bins/n8jcu").
+                get("https://api.github.com/repos/metrolab/SingleDateAndTimePicker").
                 then().
                 statusCode(200);
     }
@@ -19,7 +19,7 @@ public class ApiTest {
     public void check_Structure() {
         given().
                 when().
-                get("https://api.myjson.com/bins/n8jcu").
+                get("https://api.github.com/repos/metrolab/SingleDateAndTimePicker").
                 then().
                 assertThat().
                 body("",hasKey("id"))
@@ -33,7 +33,7 @@ public class ApiTest {
     public void check_OwnerLogin() {
         given().
                 when().
-                get("https://api.myjson.com/bins/n8jcu").
+                get("https://api.github.com/repos/metrolab/SingleDateAndTimePicker").
                 then().
                 assertThat().
                 body("owner",hasEntry("login","metrolab"));
@@ -43,7 +43,7 @@ public class ApiTest {
     public void test_FailedOnPurpose() {
         given().
                 when().
-                get("https://api.myjson.com/bins/n8jcu").
+                get("https://api.github.com/repos/metrolab/SingleDateAndTimePicker").
                 then().
                 assertThat().
                 body("",hasKey("failing attribute"));
